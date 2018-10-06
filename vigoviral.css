@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+html,
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#container{
+  background: white;
+  max-width: 480px;
+  margin: auto;
+  box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#survey-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+}
+
+::placeholder {
+  font-family: lato, sans-serif;
+  font-weight: 500;
+  font-size:15px;
+  color:grey;
+}
+
+label {
+  display: block;
+  padding: 1rem 0 0.25rem;
+  font-size: 17px;
+  font-weight: 600;
+  color:black;
+}
+
+.blocked {
+  display: block;
+  width: 95%;
+  border: none;
+  border-bottom: 2px solid #ff2d2d;
+  padding: 15px;
+  font-weight:500;
+  font-size:15px;
+  color:grey;
+  
+}
+.block {
+  display: block;
+  width: 95%;
+  border: none;
+  border-bottom: 2px solid #ff2d2d;
+  padding: 15px;
+  background: white;
+  font-weight:500;
+  font-size:15px;
+  color:grey;
+}
+
+#title {
+  text-align: center;
+  font-weight: 900;
+  padding-top: 2rem;
+  color: #202224;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+#description {
+  font-weight: 300;
+  text-align: center;
+}
+
+.dropdown-sel {
+  border: 1px solid royalblue;
+  background: royalblue;
+  color: white;
+  padding: 3px;
+  width: auto;
+  text-align: center;
+}
+#submit {
+  border: 0;
+  background: #ff2d2d;
+  padding: 0.5rem;
+  margin: 10px 0 10px 0;
+  width: 100%;
+  text-transform: uppercase;
+  color:white;
+  font-weight:600;
+  font-size:15px;
+}
+
+#submit:hover {
+    background: #11af26;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+html,
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#survey-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+}
+
+.blue {
+    border-left: 6px solid #0073e6;
+    background-color: #4da6ff;
+    padding:10px;
+    color:white;
+}
+
+.red {
+    border-left: 6px solid red;
+    background-color: tomato;
+    padding:10px;
+    color:white;
+}
+
+progress {
+    height: 30px;
+    width: 200px;   
+}
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+html,
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
+#survey-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+}
+
+.grey {
+    border-left: 6px solid black;
+    background-color: lightgrey;
+    padding:10px;
+}
+.blue {
+    border-left: 6px solid #0073e6;
+    background-color: #4da6ff;
+    padding:10px;
+    color:white;
+}
+
+.red {
+    border-left: 6px solid red;
+    background-color: tomato;
+    padding:10px;
+    color:white;
+}
+progress {
+    height: 30px;
+    width: 200px;   
+}
